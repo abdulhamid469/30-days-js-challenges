@@ -8,7 +8,7 @@
 
 .main-header {
     width: 100%;
-    width: 920px;
+    width: 1620px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -22,10 +22,12 @@
 .nav-bar ul {
     display: flex;
 }
-.nav-bar ul li {
-    padding: 20px;
-}
 .nav-bar li a {
+    padding: 10px 20px;
     color: white;
-
+}
+.nav-bar ul li a:hover {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
 }
