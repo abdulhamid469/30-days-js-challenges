@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
+    padding: 20px;
+}
+.main-section {
+    max-width: 540px;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 8px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px darksalmon;
+}
+.main-section h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#undo-text-box {
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#btn-submit {
+    width: 100%;
+    display: block;
+    background-color: darkgoldenrod;
+    color: white;
+}
+.main-section .btn {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#btn-undo {
+    background-color: grey;
+    color: white;
+    margin-right: 20px;
+    border: 2px solid grey;
+}
+#btn-redo {
+    border: 2px solid grey;
+    background-color: transparent;
+    color: black;
+}
