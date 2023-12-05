@@ -54,14 +54,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 .popup-box {
     width: 100%;
     max-width: 600px;
     max-height: 800px;
-    height: 250px;
+    height: 270px;
     padding: 50px 20px;
-    background-color: skyblue;
     border-radius: 8px;
     background-color: rgba(0, 191, 255, 0.3);
     backdrop-filter: blur(7px);
